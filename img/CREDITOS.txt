@@ -1,0 +1,20 @@
+CRÉDITOS DE IMÁGENES (Wikimedia Commons)
+==========================================
+Imágenes de uso libre descargadas de Wikimedia Commons (dominio público / CC).
+Son PLACEHOLDERS de muestra: reemplazar por fotos reales de Samara antes de publicar.
+
+Archivo	Título original	Autor	Licencia
+hero.jpg	Tarot cards - 3 card spread with candles.jpg	Nosferattus	CC0 <http://creativecommons.org/publicdomain/zero/1.0/deed.en>
+sobre-mi.jpg	Tarot card reading 2010.jpg	leesean	CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>
+servicio-1.jpg	Tarot cards - 3 card spread.jpg	Nosferattus	CC0 <http://creativecommons.org/publicdomain/zero/1.0/deed.en>
+servicio-2.jpg	Celtic Cross Tarot Spread.jpg	ArrowTarot	CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>
+servicio-3.jpg	Le Bateleur, Tarot de Papus 1909-2019.jpg	Pmreader	CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>
+servicio-4.jpg	Sage burning in a smudge pot.jpg	Tony Alter	CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>
+servicio-5.jpg	Ritual- Candles.jpg	Unknown authorUnknown author	CC0 <http://creativecommons.org/publicdomain/zero/1.0/deed.en>
+servicio-6.jpg	Waxing half moon over Brofjorden 1.jpg	W.carter	CC0 <http://creativecommons.org/publicdomain/zero/1.0/deed.en>
+shop-baraja.jpg	Tarot cards - Celtic cross spread.jpg	Nosferattus	CC0 <http://creativecommons.org/publicdomain/zero/1.0/deed.en>
+shop-velas.jpg	Candle Ritual Gathering.jpg	Amdadphoto	CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>
+shop-incienso.jpg	Incense in India.jpg	4174332	CC0 <http://creativecommons.org/publicdomain/zero/1.0/deed.en>
+shop-cristales.jpg	Quartz, Tibet.jpg	JJ Harrison (https://www.jjharrison.com.au/)	CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>
+shop-pendulo.jpg	Universal pendulum A.jpg	Wouterhagens	CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>
+shop-kit.jpg	White sage smudge sticks.jpg	Paloma Cervantes	CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>

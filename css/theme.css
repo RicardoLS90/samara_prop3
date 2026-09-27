@@ -1,0 +1,54 @@
+/* =====================================================================
+   SAMARA · PROPUESTA 3 — "BOHÈME TAROT"
+   ---------------------------------------------------------------------
+   ÚNICO archivo que cambia entre propuestas.
+   Paleta: tonos tierra/terracota + verde salvia, textura papel sutil.
+   Tipografía: Caveat (titulares manuscritos) + Lora (serif cálida).
+   Sensación: artesanal, cálida, tarot clásico.
+   ===================================================================== */
+:root {
+  /* Superficies y texto */
+  --bg: #f5ece0;                 /* papel crema */
+  --bg-soft: #efe2d1;            /* arena */
+  --surface: #fffaf3;
+  --surface-2: #f3e7d8;
+  --text: #4a3a2c;
+  --text-muted: #8a7360;
+  --border: rgba(181, 97, 63, 0.22);
+
+  /* Acentos (terracota + salvia) */
+  --primary: #b5613f;
+  --primary-strong: #cc7a54;
+  --on-primary: #fff8f2;
+  --accent: #7c8f6b;
+
+  /* Cabecera / pie */
+  --header-bg: rgba(245, 236, 224, 0.88);
+  --header-bg-solid: #f5ece0;
+  --header-border: rgba(181, 97, 63, 0.18);
+  --footer-bg: #ece0cd;
+  --footer-text: #6f5c4a;
+  --footer-heading: #43331f;
+
+  /* Tipografía */
+  --font-display: "Caveat", "Segoe Script", cursive;   /* titulares manuscritos */
+  --font-heading: "Lora", Georgia, "Times New Roman", serif;
+  --font-body: "Lora", Georgia, "Times New Roman", serif;
+
+  /* Formas y sombras (cálidas, suaves) */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 26px;
+  --shadow-sm: 0 5px 16px rgba(90, 60, 40, 0.12);
+  --shadow-md: 0 14px 34px rgba(90, 60, 40, 0.16);
+  --shadow-lg: 0 28px 60px rgba(90, 60, 40, 0.20);
+
+  /* Textura papel sutil (trama cruzada, sin imágenes): mantiene el sitio offline */
+  --texture:
+    repeating-linear-gradient(45deg, rgba(120, 90, 60, 0.030) 0 1px, transparent 1px 6px),
+    repeating-linear-gradient(-45deg, rgba(120, 90, 60, 0.024) 0 1px, transparent 1px 7px);
+  --img-filter: sepia(0.26) saturate(1.05) contrast(1.02) brightness(1.02);
+  --hero-overlay: linear-gradient(105deg, rgba(58, 40, 26, 0.84) 0%, rgba(122, 74, 50, 0.55) 60%, rgba(124, 143, 107, 0.42) 100%);
+  --hero-text: #fff8f0;
+  --hero-muted: #efe0cf;
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO básico -->
+  <title>Tienda · Samara | Tarot, velas, cristales y más</title>
+  <meta name="description" content="Tienda de Samara: barajas de tarot, velas rituales, incienso, cristales, péndulos y kits de limpieza energética. Selección de objetos para tus rituales.">
+  <meta name="keywords" content="tienda tarot, baraja de tarot, velas rituales, cristales, péndulo, incienso, limpieza energética">
+  <meta name="author" content="Samara">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Samara · Tarot y Cartomancia">
+  <meta property="og:title" content="Tienda · Samara | Tarot, velas, cristales y más">
+  <meta property="og:description" content="Objetos seleccionados para acompañar tus lecturas y tus rituales: barajas, velas, incienso, cristales y más.">
+  <meta property="og:image" content="img/shop-baraja.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tienda · Samara">
+  <meta name="twitter:description" content="Barajas, velas, cristales y péndulos para tus rituales.">
+  <meta name="twitter:image" content="img/shop-baraja.jpg">
+
+  <!-- Favicon (SVG provisional, reemplazable) -->
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="apple-touch-icon" href="img/favicon.svg">
+
+  <!-- Tipografías: se incluyen todas las familias usadas por los 3 temas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos propios: base compartida + tema (único archivo que cambia entre propuestas) -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+  <!-- ================================================================
+       CABECERA / NAVEGACIÓN STICKY
+       ================================================================ -->
+  <header class="site-header" id="top">
+    <div class="container-samara header-inner">
+      <a class="brand" href="index.html" aria-label="Samara, volver al inicio">
+        <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M24 5l2 5 5.2 1.4L26 13.8 24 19l-2-5.2-4.8-1.4L22 11z" fill="currentColor"/>
+          <text x="24" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="23" font-style="italic" fill="currentColor">S</text>
+        </svg>
+        <span><span class="brand__name">Samara</span><span class="brand__tag">Tarot · Cartomancia</span></span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="tienda.html" class="is-active">Tienda</a></li>
+          <li><a href="index.html#testimonios">Testimonios</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-toggle" type="button" data-cart-toggle aria-expanded="false" aria-controls="cartDrawer" aria-label="Abrir carrito">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <path d="M3 4h2l2.4 12.2a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.6L21 8H6"/>
+            <circle cx="9.5" cy="20.5" r="1.2"/><circle cx="17.5" cy="20.5" r="1.2"/>
+          </svg>
+          <span class="cart-count" aria-live="polite">0</span>
+        </button>
+
+        <a class="btn-samara btn-samara--sm d-none d-lg-inline-flex" href="index.html#reserva">Reservar cita</a>
+
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="navMobile" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="nav-mobile" id="navMobile" aria-hidden="true">
+      <div class="container-samara">
+        <ul>
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="index.html#testimonios">Testimonios</a></li>
+        </ul>
+        <a class="btn-samara btn-samara--block" href="index.html#reserva">Reservar cita</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ==============================================================
+         CABECERA DE LA TIENDA
+         ============================================================== -->
+    <section class="section" style="padding-bottom:0">
+      <div class="container-samara">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Tienda</span>
+          <h2 class="section-title">Objetos para tu ritual</h2>
+          <p class="lead-text">Una selección cuidada de elementos para acompañar tus lecturas, tus rituales y tus momentos de conexión.</p>
+          <div class="divider-motif" aria-hidden="true">✦</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         GRID DE PRODUCTOS
+         ============================================================== -->
+    <section class="section" style="padding-top:clamp(2rem,4vw,3rem)">
+      <div class="container-samara">
+        <div class="product-grid">
+
+          <article class="product-card" data-reveal>
+            <div class="product-card__media">
+              <img src="img/shop-baraja.jpg" alt="Baraja de tarot completa con libreta guía">
+              <span class="product-card__badge">Más vendido</span>
+            </div>
+            <div class="product-card__body">
+              <h3>Baraja de Tarot</h3>
+              <p class="product-card__desc">78 cartas con libreta guía, ideal para tus primeras lecturas.</p>
+              <p class="product-card__price">24,00 €</p>
+              <button class="btn-samara btn-samara--sm btn-samara--block" type="button"
+                      data-add-to-cart data-id="baraja" data-name="Baraja de Tarot"
+                      data-price="24.00" data-img="img/shop-baraja.jpg">Añadir al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-reveal>
+            <div class="product-card__media">
+              <img src="img/shop-velas.jpg" alt="Set de velas rituales aromáticas">
+            </div>
+            <div class="product-card__body">
+              <h3>Velas rituales</h3>
+              <p class="product-card__desc">Set de velas aromáticas para ambientar y enfocar cada sesión.</p>
+              <p class="product-card__price">14,50 €</p>
+              <button class="btn-samara btn-samara--sm btn-samara--block" type="button"
+                      data-add-to-cart data-id="velas" data-name="Velas rituales"
+                      data-price="14.50" data-img="img/shop-velas.jpg">Añadir al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-reveal>
+            <div class="product-card__media">
+              <img src="img/shop-incienso.jpg" alt="Varillas de incienso aromático">
+            </div>
+            <div class="product-card__body">
+              <h3>Incienso</h3>
+              <p class="product-card__desc">Varillas de aroma profundo para purificar el aire y la mente.</p>
+              <p class="product-card__price">9,90 €</p>
+              <button class="btn-samara btn-samara--sm btn-samara--block" type="button"
+                      data-add-to-cart data-id="incienso" data-name="Incienso"
+                      data-price="9.90" data-img="img/shop-incienso.jpg">Añadir al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-reveal>
+            <div class="product-card__media">
+              <img src="img/shop-cristales.jpg" alt="Cristal de cuarzo natural">
+            </div>
+            <div class="product-card__body">
+              <h3>Cristales</h3>
+              <p class="product-card__desc">Cuarzo natural para limpiar, proteger y recargar tu espacio.</p>
+              <p class="product-card__price">18,00 €</p>
+              <button class="btn-samara btn-samara--sm btn-samara--block" type="button"
+                      data-add-to-cart data-id="cristales" data-name="Cristales"
+                      data-price="18.00" data-img="img/shop-cristales.jpg">Añadir al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-reveal>
+            <div class="product-card__media">
+              <img src="img/shop-pendulo.jpg" alt="Péndulo de radiestesia">
+            </div>
+            <div class="product-card__body">
+              <h3>Péndulo</h3>
+              <p class="product-card__desc">Péndulo de radiestesia para trabajar respuestas y guía intuitiva.</p>
+              <p class="product-card__price">21,50 €</p>
+              <button class="btn-samara btn-samara--sm btn-samara--block" type="button"
+                      data-add-to-cart data-id="pendulo" data-name="Péndulo"
+                      data-price="21.50" data-img="img/shop-pendulo.jpg">Añadir al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-reveal>
+            <div class="product-card__media">
+              <img src="img/shop-kit.jpg" alt="Kit de limpieza energética con hierbas">
+              <span class="product-card__badge">Pack</span>
+            </div>
+            <div class="product-card__body">
+              <h3>Kit de limpieza</h3>
+              <p class="product-card__desc">Hierbas, vela y cristal para renovar la energía de tu hogar.</p>
+              <p class="product-card__price">32,00 €</p>
+              <button class="btn-samara btn-samara--sm btn-samara--block" type="button"
+                      data-add-to-cart data-id="kit-limpieza" data-name="Kit de limpieza"
+                      data-price="32.00" data-img="img/shop-kit.jpg">Añadir al carrito</button>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="product-note">Tienda de demostración: los precios son orientativos y no existe pasarela de pago ni envío real. El carrito se guarda en tu navegador (localStorage).</p>
+
+        <div class="section-head" style="margin-top:2.4rem;margin-bottom:0" data-reveal>
+          <a class="btn-samara-outline" href="index.html">Volver al inicio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================================================================
+       PIE
+       ================================================================ -->
+  <footer class="site-footer">
+    <div class="container-samara">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="Samara, volver arriba">
+            <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M24 5l2 5 5.2 1.4L26 13.8 24 19l-2-5.2-4.8-1.4L22 11z" fill="currentColor"/>
+              <text x="24" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="23" font-style="italic" fill="currentColor">S</text>
+            </svg>
+            <span><span class="brand__name">Samara</span><span class="brand__tag">Tarot · Cartomancia</span></span>
+          </a>
+          <p>Lecturas de tarot y cartomancia personalizadas. Un espacio de claridad, escucha y calma.</p>
+          <div class="social-row">
+            <a href="#" aria-label="Instagram (enlace de ejemplo)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook (enlace de ejemplo)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14 8h2.5V5H14a4 4 0 0 0-4 4v2H8v3h2v6h3v-6h2.4l.6-3H13V9a1 1 0 0 1 1-1z"/></svg>
+            </a>
+            <a href="#" aria-label="WhatsApp (enlace de ejemplo)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 20l1.2-3.6A8 8 0 1 1 8 19.6z"/><path d="M9 10c.6 2 2 3.4 4 4l1-1.4"/></svg>
+            </a>
+            <a href="#" aria-label="Correo electrónico (enlace de ejemplo)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Navegación</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+            <li><a href="index.html#servicios">Servicios</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="index.html#testimonios">Testimonios</a></li>
+            <li><a href="index.html#reserva">Reservar cita</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contacto</h4>
+          <ul class="footer-nav">
+            <li><a href="#">hola@samara-tarot.com</a></li>
+            <li><a href="#">+34 600 000 000</a></li>
+            <li>Lunes a sábado · 10:00–20:00</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Samara · Tarot y Cartomancia. Todos los derechos reservados.</span>
+        <nav class="footer-legal" aria-label="Aviso legal">
+          <a href="#">Aviso legal</a>
+          <a href="#">Política de privacidad</a>
+          <a href="#">Cookies</a>
+        </nav>
+      </div>
+      <p class="footer-bottom" style="margin-top:.6rem;display:block;opacity:.7">
+        Aviso: sitio de demostración. Imágenes de muestra de Wikimedia Commons (ver <code>img/CREDITOS.txt</code>). Contenido orientativo; no sustituye asesoramiento médico, legal ni financiero.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ================================================================
+       CARRITO (panel lateral)
+       ================================================================ -->
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrito de la compra" aria-hidden="true">
+    <div class="cart-drawer__head">
+      <h3>Tu carrito</h3>
+      <button class="cart-close" type="button" data-cart-close aria-label="Cerrar carrito">&times;</button>
+    </div>
+    <div class="cart-drawer__body" id="cartBody">
+      <p class="cart-empty">Tu carrito está vacío.<br>Descubre los productos de la tienda.</p>
+    </div>
+    <div class="cart-drawer__foot">
+      <div class="cart-total"><span>Total</span><strong id="cartTotal">0,00 €</strong></div>
+      <button class="btn-samara btn-samara--block" type="button" disabled style="opacity:.6;cursor:not-allowed">Finalizar compra (demo)</button>
+      <p class="cart-demo-note">Tienda de demostración: no hay pasarela de pago ni envío real.</p>
+    </div>
+  </aside>
+
+  <!-- ================================================================
+       AVISO DE COOKIES (simple)
+       ================================================================ -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+    <p>Usamos cookies propias y técnicas para que el sitio funcione correctamente. <a href="#">Más información</a>.</p>
+    <button class="btn-samara btn-samara--sm" type="button" id="cookieAccept">Aceptar</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
